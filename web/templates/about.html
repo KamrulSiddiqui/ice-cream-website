@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %} About Us {% endblock title %}
+
+{% block body %}
+<!-- Hero Banner -->
+<div class="container-fluid px-0">
+    <img src="/static/about-banner.jpg" class="d-block w-100" alt="About Banner" style="height: 600px; object-fit: cover;">
+</div>
+
+<!-- About Content -->
+<div class="container my-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <p class="lead text-center">
+        Welcome to <strong>SweetScoops</strong> — where every scoop tells a story! We are passionate about serving the creamiest, freshest, and most delightful ice creams in town.
+    </p>
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <h3>Our Story</h3>
+            <p>
+                Founded in 2020, SweetScoops began with a dream to spread happiness through unique and delicious ice cream flavors. What started as a small family shop has now grown into a beloved destination for dessert lovers of all ages.
+            </p>
+            <p>
+                Our secret? Natural ingredients, creative recipes, and love in every batch!
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="/static/our-story.jpg" class="img-fluid rounded" alt="Our Story Image">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6 order-md-2">
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>🍦 100% Natural Ingredients</li>
+                <li>🌈 Unique Seasonal Flavors</li>
+                <li>🏆 Award-Winning Recipes</li>
+                <li>❤️ Loved by Thousands of Customers</li>
+            </ul>
+        </div>
+        <div class="col-md-6 order-md-1">
+            <img src="/static/why-choose-us.jpg" class="img-fluid rounded" alt="Why Choose Us">
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials or Quote -->
+<div class="bg-light py-5">
+    <div class="container text-center">
+        <blockquote class="blockquote">
+            <p class="mb-0">"You can't buy happiness, but you can buy ice cream — and that's kind of the same thing!"</p>
+            <footer class="blockquote-footer mt-2">Someone who loves SweetScoops</footer>
+        </blockquote>
+    </div>
+</div>
+{% endblock body %}

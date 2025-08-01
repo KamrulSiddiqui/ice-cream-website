@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %} Services {% endblock title %}
+
+{% block body %}
+<!-- Header Banner -->
+<div class="container-fluid px-0">
+    <img src="/static/services.jpg" class="d-block w-100" alt="Services Banner" style="height: 500px; object-fit: cover;">
+    <h1 class="text-center my-4">Our Services</h1>
+</div>
+
+<!-- Services Section -->
+<div class="container my-5">
+    <div class="row g-4">
+        <!-- Stick Ice Cream -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="/static/stick.jpg" class="card-img-top" alt="Stick Ice Cream" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Stick Ice Cream</h5>
+                    <p class="card-text text-center">Enjoy our delicious range of stick ice creams in various fruity and chocolatey flavors. Perfect for a quick frozen treat!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Softy -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="/static/softy.jpg" class="card-img-top" alt="Softy" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Softy</h5>
+                    <p class="card-text text-center">Our softy ice creams are smooth, creamy, and melt-in-your-mouth. Available in classic vanilla, chocolate, and twisty combinations!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Family Pack -->
+        <div class="col-md-4">
+            <div class="card h-100 shadow">
+                <img src="/static/family-pack.jpg" class="card-img-top" alt="Family Pack" style="height: 250px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Family Pack</h5>
+                    <p class="card-text text-center">Big gatherings? No problem! Our family packs come in multiple flavors and sizes—perfect for every celebration or dessert craving.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
